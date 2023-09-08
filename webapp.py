@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pickle
 import seaborn as sns
+#load in the model using pickle
 
 loaded_model= pickle.load(open("malware_predictor.sav","rb"))
 
